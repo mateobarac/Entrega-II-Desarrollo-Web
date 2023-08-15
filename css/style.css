@@ -14,7 +14,6 @@ a {
 }
 
 a:link {
-  color: #f2c744;
   text-decoration: none;
 }
 
@@ -41,10 +40,7 @@ a:active {
 }
 
 #piedepagina {
-  color: #00010d;
   background-color: #f2c744;
-  text-align: center;
-  position: relative;
 }
 
 .foto_sneakers {
@@ -63,4 +59,16 @@ a:active {
 
 #ubicacionEnMapa {
   margin: auto 0px auto 1550px;
+}
+
+.productosIndex {
+  transition: all 0.3s;
+}
+
+.productosIndex:hover {
+  transform: scale(1.15);
+}
+
+ul {
+  list-style-type: none;
 }
