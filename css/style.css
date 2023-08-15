@@ -3,6 +3,14 @@
   margin: 0 auto;
 }
 
+nav {
+  background-color: #f2c744;
+}
+
+footer {
+  background-color: #f2c744;
+}
+
 * body {
   font-family: "Roboto", sans-serif;
 }
@@ -35,30 +43,8 @@ a:active {
   font-size: 40px;
 }
 
-.centrar {
-  text-align: center;
-}
-
 #piedepagina {
   background-color: #f2c744;
-}
-
-.foto_sneakers {
-  width: 25%;
-  position: relative;
-  left: 400px;
-}
-
-#jordan_travis {
-  width: 25%;
-  height: 25%;
-  position: relative;
-  left: 950px;
-  bottom: 475px;
-}
-
-#ubicacionEnMapa {
-  margin: auto 0px auto 1550px;
 }
 
 .productosIndex {
@@ -71,4 +57,49 @@ a:active {
 
 ul {
   list-style-type: none;
+}
+
+/*CSS PARA PAGINAS NO RESPONSIVE*/
+
+#piedepagina {
+  color: #00010d;
+  background-color: #f2c744;
+  text-align: center;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+.centrar {
+  text-align: center;
+}
+
+#lista1 li {
+  display: inline;
+  font-size: 200%;
+  margin-bottom: 100px;
+}
+
+button {
+  border: none;
+  border-radius: 3px;
+  background-color: white;
+}
+
+.paresFilaUno {
+  position: absolute;
+  top: 150px;
+}
+
+.paresFilaDos {
+  position: absolute;
+  top: 430px;
+}
+
+.columnaDos {
+  left: 550px;
+}
+
+.columnaTres {
+  right: 0px;
 }
