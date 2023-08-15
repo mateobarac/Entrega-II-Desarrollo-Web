@@ -3,14 +3,6 @@
   margin: 0 auto;
 }
 
-nav {
-  background-color: #f2c744;
-}
-
-footer {
-  background-color: #f2c744;
-}
-
 * body {
   font-family: "Roboto", sans-serif;
 }
@@ -22,6 +14,7 @@ a {
 }
 
 a:link {
+  color: #f2c744;
   text-decoration: none;
 }
 
@@ -43,63 +36,31 @@ a:active {
   font-size: 40px;
 }
 
-#piedepagina {
-  background-color: #f2c744;
+.centrar {
+  text-align: center;
 }
-
-.productosIndex {
-  transition: all 0.3s;
-}
-
-.productosIndex:hover {
-  transform: scale(1.15);
-}
-
-ul {
-  list-style-type: none;
-}
-
-/*CSS PARA PAGINAS NO RESPONSIVE*/
 
 #piedepagina {
   color: #00010d;
   background-color: #f2c744;
   text-align: center;
-  position: fixed;
-  bottom: 0px;
-  width: 100%;
+  position: relative;
 }
 
-.centrar {
-  text-align: center;
+.foto_sneakers {
+  width: 25%;
+  position: relative;
+  left: 400px;
 }
 
-#lista1 li {
-  display: inline;
-  font-size: 200%;
-  margin-bottom: 100px;
+#jordan_travis {
+  width: 25%;
+  height: 25%;
+  position: relative;
+  left: 950px;
+  bottom: 475px;
 }
 
-button {
-  border: none;
-  border-radius: 3px;
-  background-color: white;
-}
-
-.paresFilaUno {
-  position: absolute;
-  top: 150px;
-}
-
-.paresFilaDos {
-  position: absolute;
-  top: 430px;
-}
-
-.columnaDos {
-  left: 550px;
-}
-
-.columnaTres {
-  right: 0px;
+#ubicacionEnMapa {
+  margin: auto 0px auto 1550px;
 }
