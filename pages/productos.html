@@ -4,102 +4,204 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Productos</title>
+    <meta name="description" content="Reventa Sneakers en Buenos Aires"> 
+    <meta name="keywords" content="Adidas Yeezy, Air Jordan, Yeezy Beluga, Nike AirMax, Jordan Travis Scott, Adidas Forum, Adidas Bad Bunny, Jordan Infrared">
+    <title>HOME</title>
     <link rel="shortcut icon" href="imagenes/logo.png"image/x-icon" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <!-- css propio -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- fuente google -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <!-- cdn animate.css -->
     <link
-      href="https://fonts.googleapis.com/css2?family=Arsenal&family=Nanum+Gothic+Coding&family=Oswald&family=Roboto:wght@100&family=Source+Sans+Pro:wght@200&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="stylesheet" href="../css/style.css" />
-  </head>
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+    <!-- cdn fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- cdn bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
   <body>
+    <!-- navbar -->
     <header>
-      <div>
-        <nav class="centrar">
-          <ul id="lista1">
-            <li>
-              <a href="../index.html">Inicio</a>
-             </li>
-              <span></span>
-              <li>
-                <a href="productos.html">Productos</a>
-              </li>
-              <span></span>
-              <li>
-                <a href="contacto.html">Contacto</a>
-              </li>
-              <span></span>
-              <li>
-                <a href="FAQ.html">FAQ</a>
-              </li>
-            </ul>
-          </nav>
-        </div>
-      </header>
+      <nav class="navbar navbar-expand-xl">
+  <div class="container-fluid">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contacto.html">Contacto</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="FAQ.html">FAQ</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+  </nav>
     </header>
-    <section class="nombre_empresa">
-      <h1>
-        <a href="../index.html">BYNKZ</a>
-      </h1>
-    </section>
-    <main class="centrar">
-      <article class="paresFilaUno columnaUno">
-        <a href="dunks.html"> 
-          <img src="../imagenes/pandas sin fondo.png" alt="Nike Pandas" srcset=""/>
-          <p>Nike Dunk Low Retro White Black Panda <div> US M 9 US$118</div></p> 
-        </a> 
-      </article>
-      <article class="paresFilaUno columnaDos">
-        <a href="chicagoLostFound.html"> 
-          <img src="../imagenes/lostnfound.png" alt="Lost And Found">
-          <div> <p>Jordan 1 Retro High OG Chicago Lost And Found <div> US M 10 US$410 </div></p>
-          </div>
-        </a>
-      </article>
-      <article class="paresFilaUno columnaTres"> 
-        <a href="airMax1WaterMelon.html">
-          <img src="../imagenes/am1 patta.PNG" alt="Airmax 1 Watermelon"> 
-          <p>Nike Air Max 1 Watermelon <div> US M 8.5 US$419</div></p>
-        </a>
-      </article>
-      <article class="paresFilaDos columnaUno">
-        <a href="airMax90Infra.html"> 
-          <img src="../imagenes/am90infra.PNG" alt="Airmax 90 Infrared"> 
-          <p>Nike Air Max 90 Infrared (2020) <div> US M 12 US$234</div></p>
-        </a>
-      </article>
-      <article class="paresFilaDos columnaDos">
-        <a href="jordan1.html">
-          <img  src="../imagenes/j1t trav.png" alt="Jordan 1 x Travis Scott">
-          <p>Jordan 1 Retro High OG X Travis Scott <div>12 US US$1654</div> </p> 
-        </a>
-        </article>
-      <article class="paresFilaDos columnaTres"> 
-        <a href="beluga.html">
-          <img src="../imagenes/yeezy.png" alt="yeezy">     
-          <p>adidas Yeezy Boost 350 V2 Beluga <div>
-            US 11.5 US $1300
-          </div>
-        </p>
-      </a>   
-      </article>
-      </main>
-        <section class="paginaProductos" id="piedepagina">
-          <footer>
-            <h2>Nuestras redes</h2>
-            <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
-            <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
-            <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
-          </footer>
+       <main>
+        <section>
+          <h1 class="text-center animate__animated animate__fadeIn">  
+            <a href="../index.html">
+              BYNKZ
+            </a> 
+          </h1>
         </section>
+    <main>
+      <!-- productos -->
+      <!-- Primera fila productos -->
+      <div class="container">
+          <div class="row">
+           <div class="card col-xl-3 mt-4 border-dark">
+            <a href="dunks.html">
+              <img src="../imagenes/pandas sin fondo.png" alt="Nike Pandas" class="card-image-top img-thumbnail mx-auto d-block">
+              <p class="card-title text-center center-block mb-0 mt-4">Nike Pandas Low 
+                <strong><div class="text-center card-text">US 9 USD 118
+                </div>
+              </strong>
+                <div class="text-center card-text colorTextoIndex">
+                  Lanzadas en el año 1985 las Nike Dunks son una de las siluetas mas populares del mercado, siendo el colorway Panda la silueta mas vendida en todo el 2022.
+                </div>
+              </p>
+            </a>
+           </div>
+           <div class="card col-xl-3 mt-4 mx-auto border-dark">
+            <a href="jordan1.html">
+              <img src="../imagenes/j1t trav.png"alt="Jordan 1 Travis Scott" class="card-image-top img-thumbnail mx-auto d-block">
+              <p class="card-title text-center mb-0"> Air Jordan 1 Retro High Cactus Jacks x Travis Scott
+                <strong> <div class="text-center card-text">US 12 USD 1654
+                </div>
+              </strong>
+                <div class="text-center card-text colorTextoIndex">
+                  Lanzadas en el año 2019, las Jordan 1 High x Travis Scott son el segundo par en colaboracion entre el rapero de Houston y la marca estadounidense.
+                </div>
+              </p>
+            </a>
+           </div>
+           <div class="card col-xl-3 mt-4 border-dark">
+            <a href="1Watermelon.html">
+              <img src="../imagenes/am1 patta.PNG" alt="AM 1 Watermelon" class="card-image-top img-thumbnail mx-auto d-block">
+              <p class="card-title text-center mb-0 mt-3"> Nike Air Max 1 Watermelon
+                <strong><div class="text-center card-text"> US 8.5 USD 419
+               </div>
+              </strong>
+               <div class="text-center card-text colorTextoIndex">
+                Lanzadas en Marzo de 2018, siendo este el unico lanzamiento de este colorway de Air Max 1 hasta la fecha
+               </div>
+              </p>
+            </a>
+           </div>
+          </div>
+        </div>
+        <!-- Segunda fila productos -->
+        <div class="container">
+          <div class="row">
+           <div class="card col-xl-3 mt-5 mb-5 border-dark">
+            <a href="chicagoLostFound.html">
+              <img src="../imagenes/lostnfound.png" alt="chicagoLostFound" class="card-image-top img-thumbnail mx-auto d-block">
+              <p class="card-title text-center mb-0">Air Jordan 1 Retro High OG Chicago Lost And Found
+                <strong><div class="text-center">US 10 USD 410
+                </div>
+              </strong>
+              <div class="text-center card-text colorTextoIndex">
+                Lanzadas en 2021 en colaboracion con la tienda Lost And Found, replican el colorway de las Jordan 1 Chicago de 1985 con detalles tanto en el par como en la caja para simular el paso del tiempo.
+              </div>
+              </p>
+            </a>
+          </div>
+          <div class="card col-xl-3 mt-5 mb-5 mx-auto border-dark">
+            <a href="beluga.html">
+              <img src="../imagenes/yeezy.png" alt="Adidas Yeezy"class="card-image-top img-thumbnail mx-auto d-block">
+              <p class="card-title text-center mb-0">Adidas Yeezy Boost 350 V2 Beluga Reflective
+                <strong><div class="text-center">US 11.5 USD 1300
+                </div>
+              </strong>
+              <div class="text-center colorTextoIndex">
+                Lanazadas en 2021, las Adidas Yeezy 350 V2 Beluga Reflective son una revision del par original producto de la colaboracion entre la marca de Kanye West y Adidas.
+              </div>
+              </p>
+            </a>
+          </div>
+          <div class="card col-xl-3 mb-5 border-dark">
+            <a href="infrared.html">
+              <img src="../imagenes/am90infra.PNG" alt="Nike Air Max 90" class="card-image-top img-thumbnail mx-auto d-block">
+              <p class="card-title text-center mb-0">Nike Air Max 90 Infrared
+                <strong><div class="text-center"> US M 12 USD 234
+                 </div></strong>
+                 <div class="text-center colorTextoIndex">
+                  En el festejo del 30 aniversario de las Air Max 90, Nike en el año 2020 trajo nuevamente este colorway iconico de la silueta caracterizado por la combinacion de los colores rojos y negros.
+                 </div>
+              </p>
+            </a>
+          </div>
+          </div>
+        </div>
+        <!-- Tercera Fila Productos -->
+        <div class="container">
+          <div class="row">
+            <div class="card col-xl-3 mb-5 border-dark">
+              <a href="6infrared.html">
+                <img src="../imagenes/jordan6infra.PNG" alt="Jordan 6 Infrared" class="card-image-top img-thumbnail mx-auto d-block">
+                <p class="text-center"> Jordan 6 Retro Infrared
+                  <strong><div class="text-center"> US M 10 USD 300
+                  </div>
+                </strong>
+                  <div class="text-center colorTextoIndex">
+                    Lanzadas en el año 2019, son el cuarto lanzamiento de esta silueta originalmente lanzada en 1991, siendo el primer modelo de la marca con la cual Michael Jordan consiguió su primer anillo de la NBA. 
+                  </div>
+                </p>
+              </a>
+            </div>
+            <div class="card col-xl-3 mb-5 mx-auto border-dark">
+              <a href="badBunnyTripleBlack.html">
+                <img src="../imagenes/badbunny.PNG" alt="Forum Bad Bunny Triple Black" class="card-image-top img-thumbnail mx-auto d-block">
+                <p class="text-center">Adidas Forum x Bad Bunny Triple Black
+                  <strong><div class="text-center">US M 7 USD 384
+                  </div>
+                </strong>
+                <div class="text-center colorTextoIndex">
+                  Tercer par de la colaboración entre la marca Alemana y el cantante de Puerto Rico, las Forum x Bad Bunny Triple Black son un par escencial en cualquier coleccion por su versatilidad en cualquier outfit.
+                </div>
+                </p>
+              </a>
+            </div>
+            <div class="card col-xl-3 mb-5 border-dark">
+              <a href="UpTempoTripleBlack.html">
+                <img src="../imagenes/UpTempo.PNG" alt="Nike More Uptempo BW" class="card-image-top img-thumbnail mx-auto d-block">
+                <p class="text-center">Nike Uptempo Black & White</p>
+                <strong><div class="text-center">
+                  US M 9 USD 229
+                </div></strong>
+                <div class="text-center colorTextoIndex">
+                  Popularizadas por Scottie Pippen en la decada del '90 durante su paso por los Chicago Bulls, las Nike Uptempo son una de las siluetas mas iconicas en el mundo sneakerhead
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </main>
+      <!-- footer -->
+      <section>
+        <footer class="text-center container-fluid fixed-bottom mt-5">
+         <h2 class="mb-0">Nuestras redes</h2>
+         <a href="https://www.facebook.com"><i class="fa-brands fa-facebook"></i></a>
+         <a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a>
+         <a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a>
+       </footer>
+     </section>
+        <!-- JavaScript Bootstrap -->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   </body>
 </html>

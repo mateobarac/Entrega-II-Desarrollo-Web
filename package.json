@@ -1,0 +1,11 @@
+{
+  "name": "entrega3",
+  "version": "1.0.0",
+  "description": "Paginas responsive realizadas con boostrap: Index.html, jordan1.html.\r Paginas no responsive con CSS: contacto.html, FAQ.html y productos.html\r Marcos Barac",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
